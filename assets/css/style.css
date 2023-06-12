@@ -1096,9 +1096,9 @@ section {
 }
 
 #preloader{
-  background: transparent url("../img/loader2.gif") no-repeat center;
+  background: transparent url("../img/loading2.gif") no-repeat center;
   /* background: rgb(255, 255, 255) url("../img/loader.gif") no-repeat center; */
-  background-size: 7%;
+  background-size: 6%;
   height: 100vh;
   width: 100%;
   position: fixed;
