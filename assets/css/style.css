@@ -5,15 +5,16 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #ffffff;
+  background-color: #000000;
 }
 
 a {
-  color: #ff0000;
+  color: #DC143C;
 }
 
 a:hover {
-  color: #ff0000;
+  color: #DC143C;
   text-decoration: none;
 }
 
@@ -66,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: #000000;
   overflow-y: auto;
 }
 
@@ -108,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .profile .social-links a:hover {
-  background: #ff0000;
+  background: #DC143C;
   color: #fff;
   text-decoration: none;
 }
@@ -167,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
-  color: #ff0000;
+  color: #DC143C;
 }
 
 /* Mobile Navigation */
@@ -187,7 +188,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #ff0000;
+  color: #DC143C;
 }
 
 .mobile-nav-active {
@@ -263,7 +264,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #ff0000;
+  border-bottom: 3px solid #DC143C;
 }
 
 @media (min-width: 1024px) {
@@ -293,7 +294,7 @@ section {
 }
 
 .section-bg {
-  background: #ffffff;
+  background: #000000;
 }
 
 .section-title {
@@ -306,7 +307,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #ff0000;
+  color: #DC143C;
 }
 
 .section-title h2::after {
@@ -315,7 +316,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #ff0000;
+  background: #DC143C;
   bottom: 0;
   left: 0;
 }
@@ -330,7 +331,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #ff0000;
+  color: #DC143C;
 }
 
 .about .content ul {
@@ -345,7 +346,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #ff0000;
+  color: #DC143C;
 }
 
 .about .content p:last-child {
@@ -367,7 +368,7 @@ section {
 .facts .count-box i {
   display: block;
   font-size: 44px;
-  color: #ff0000;
+  color: #DC143C;
   float: left;
 }
 
@@ -385,21 +386,21 @@ section {
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: #ff0000;
+  color: #DC143C;
 }
 
 .facts .count-box a {
   font-weight: 600;
   display: block;
   margin-top: 20px;
-  color: #ff0000;
+  color: #DC143C;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   transition: ease-in-out 0.3s;
 }
 
 .facts .count-box a:hover {
-  color: #ff0000;
+  color: #DC143C;
 }
 
 /*--------------------------------------------------------------
@@ -418,7 +419,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #ffffff;
 }
 
 .skills .progress .skill .val {
@@ -427,14 +428,14 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: #f5d2d2;
+  background: #ffffff;
 }
 
 .skills .progress-bar {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #ff0000;
+  background-color: #DC143C;
 }
 
 /*--------------------------------------------------------------
@@ -445,13 +446,13 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
+  color: #DC143C;
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #ff0000;
+  border-left: 2px solid #DC143C;
   position: relative;
 }
 
@@ -461,13 +462,13 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #ffffff;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #e4edf9;
+  background: #1f2022;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -494,8 +495,8 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
-  border: 2px solid #ff0000;
+  background: #000000;
+  border: 2px solid #DC143C;
 }
 
 /*--------------------------------------------------------------
@@ -529,7 +530,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #ff0000;
+  color: #DC143C;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -574,17 +575,17 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: #ff0000;
+  background: #DC143C;
   transition: 0.3s;
   width: 50%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: #ff0000;
+  background: #DC143C;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a + a {
-  border-left: 1px solid #ff0000;
+  border-left: 1px solid #DC143C;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -614,10 +615,10 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: #ff0000;
+  background: #DC143C;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #ff0000;
+  border: 1px solid #DC143C;
 }
 
 .services .icon i {
@@ -630,7 +631,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #ff0000;
+  color: #DC143C;
 }
 
 .services .title {
@@ -641,11 +642,11 @@ section {
 }
 
 .services .title a {
-  color: #343a40;
+  color: #ffffff;
 }
 
 .services .title a:hover {
-  color: #ff0000;
+  color: #DC143C;
 }
 
 .services .description {
@@ -738,7 +739,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #ff0000 !important;
+  background-color: #DC143C !important;
 }
 
 @media (max-width: 767px) {
@@ -756,18 +757,18 @@ section {
 
 .contact .info {
   padding: 30px;
-  background: #fff;
+  background: #000000;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
 .contact .info i {
   font-size: 20px;
-  color: #ff0000;
+  color: #ffffff;
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background: #DC143C;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -780,14 +781,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #050d18;
+  color: #ffffff;
 }
 
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #ff0000;
+  color: #DC143C;
 }
 
 .contact .info .email p {
@@ -814,19 +815,19 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #ff0000;
+  background: #DC143C;
   color: #fff;
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #ff0000;
+  background: #DC143C;
   color: #fff;
 }
 
 .contact .yash {
   width: 100%;
   padding: 30px;
-  background: #fff;
+  background: #000000;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -899,7 +900,7 @@ section {
 }
 
 .contact .yash button[type="submit"] {
-  background: #ff0000;
+  background: #DC143C;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1005,7 +1006,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #ff0000 !important;
+  background-color: #DC143C !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1073,7 +1074,7 @@ section {
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
+  background: #000000;
 }
 
 #footer .copyright {
