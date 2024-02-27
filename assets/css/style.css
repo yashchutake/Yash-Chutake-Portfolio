@@ -1119,3 +1119,12 @@ section {
   width: 200px;
   margin-right: 10px;
 }
+
+#header {
+  overflow: hidden;
+}
+
+#header:hover {
+  overflow-y: auto;
+}
+
